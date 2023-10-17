@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        a{
+            color: pink;
+        }
+        .yellow{
+            color: yellow;
+        }
+        .cgreen{
+            color: green;
+        }
+        .cred{
+            color: red;
+        }
+        [data-x=a]{
+            color: blueviolet;
+        }
+        a.shrutic.shreyac.class[href]:hover{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <a class="yellow cgreen cred shrutic shreyac" data-x="a">This is CSS Specificity</a>
+</body>
+</html>

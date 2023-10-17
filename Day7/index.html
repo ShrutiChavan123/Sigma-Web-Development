@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+
+<body>
+    <form action="post">
+        <div>
+            <label for="unm">
+                Name <input type="text" id="unm" placeholder="Enter your Name">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="uemail">
+                Email ID <input type="email" id="uemail" placeholder="Enter your Email" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            Select gender:
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other">
+        </div>
+        <br>
+        <div>
+            <label for="upwd">
+                Password <input type="password" id="upwd" placeholder="Set your password">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="udt">
+                Date <input type="date" id="udt">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="d">
+                Select Degree <select name="dgr" id="d">
+                    <option value="btech">B.Tech</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="bca">BCA</option>
+                    <option value="bcs">BCS</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        Comment Down <br><textarea cols="20" name="comments" rows="5"></textarea><br />
+        <label><input name="terms" type="checkbox" value="tandc" />Accept terms</label> <br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
